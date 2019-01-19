@@ -1,0 +1,4 @@
+2019-01-12 13:58:44.287000 WARNING - Unable to evaluate script: no such window: target window already closed
+from unknown error: web view not found
+2019-01-12 13:58:44.289000 WARNING - Unable to evaluate script: no such window: target window already closed
+from unknown error: web view not found

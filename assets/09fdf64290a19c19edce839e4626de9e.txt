@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"><head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<title>Oxwall - social networking</title>
+<meta name="description" content="Oxwall community" />
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-language" content="en" />
+<link rel="stylesheet" type="text/css" href="http://127.0.0.1/oxwall/ow_static/plugins/base/css/ow.css?5c38faefbbf7b" media="all" />
+<link rel="stylesheet" type="text/css" href="http://127.0.0.1/oxwall/ow_static/themes/simplicity/base.css?5c38faefbbf7b" media="all" />
+<style media="all">
+	
+		body,html {background:#fff;min-width:0; height: 100%;}
+		.ow_page_wrap {
+			background: none;
+		}
+		.ow_footer {
+			background: none;
+			border: none;
+		    clear: both;
+		    height: 96px;
+		    margin-top: -99px;
+		    padding: 1px 0;
+		    position: relative;		
+    	}
+		.ow_footer .ow_canvas {
+		    margin: 0 auto;
+		    width: 996px;
+		    word-wrap: break-word;
+		    background: none;
+		}
+		.ow_footer .ow_page {
+		    margin: 0 0 0 auto;
+		    padding: 0 18px;
+		    background: none;
+		}
+		.ow_sign_in_cont {
+			position: relative;
+		}
+		body &gt; .ow_page_wrap {
+		     min-height: 100%;
+		     position: relative;
+		}
+		.ow_page_padding {
+		     padding-bottom: 99px;
+		     background: none;
+		}
+	
+</style><link rel="shortcut icon" type="image/x-icon" href="http://127.0.0.1/oxwall/ow_userfiles/plugins/base/favicon.ico" />
+<script type="text/javascript" src="http://127.0.0.1/oxwall/ow_static/plugins/base/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://127.0.0.1/oxwall/ow_static/plugins/base/js/jquery-migrate.min.js"></script>
+
+</head>
+<!--[if IE 8]><body class="ow ie8 simplicity"><![endif]-->
+<!--[if !IE 8]><!--><body class="ow simplicity" style=""><!--<![endif]-->
+
+<div class="ow_page_wrap">
+	<div class="ow_page_padding">
+		<div class="ow_box_empty ow_center ow_no_cap ow_break_word" style="padding: 215px 15px 15px;">
+
+    <p>
+Please confirm your email address.<br />Click "Send" button to receive a letter with the confirmation code to your email address.
+</p>
+<p>
+<b>If you don't receive email</b> please add <i>admin@127.0.0.1</i> to your whitelist/address book/contact list.
+</p>
+
+</div>
+<div class="ow_box_normal ow_stdmargin ow_wide ow_automargin ow_center ow_no_cap ow_break_word">
+
+    <form id="form_jik3h4gu" method="post" action="" name="emailVerifyForm">
+<input name="form_name" id="input_p4bywyge" type="hidden" value="emailVerifyForm" />
+<input name="csrf_token" id="input_vugejitu" type="hidden" value="MTU0Nzg4NDYwNWsxZHVodVJVTTF0YU5BclVXYUJPOVVEb0h5eE9iZWRv" />
+
+                        <div style="display: inline;"><label for="input_row4j4z2">Email</label>:</div><div style="display: inline;"> <input name="email" id="input_row4j4z2" type="text" style="width:330px;" value="test9@gmail.com" /></div>
+                        
+<span class="ow_button"><span class=" ow_ic_mail"><input type="submit" value="Send" id="input_xal4tuqa" class="ow_ic_mail" name="sendVerifyMail" /></span></span><br /><div style="color: red;"><span id="input_row4j4z2_error" style="display:none;" class="error"></span></div>
+    
+</form>
+
+</div>
+	</div>
+</div>
+<div class="ow_footer">
+	<div class="ow_canvas">
+		<div class="ow_page clearfix">
+			<div style="float:right;padding-bottom: 30px;">
+				<a href="https://developers.oxwall.com/" target="_blank" title="Powered by Oxwall Community Software"><img src="http://127.0.0.1/oxwall/ow_static/themes/simplicity/images/powered-by-oxwall.png" alt="Oxwall Community Software" /></a>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$('.ow_sign_up').after($('.ow_sign_in'));
+	$('&lt;div class="clearfix"&gt;&lt;/div&gt;').appendTo($('.ow_sign_in'));
+	$('.ow_sign_in &gt; .clearfix').append($('.ow_form_options .ow_button'));
+	$('.ow_sign_in &gt; .clearfix').append($('.ow_sign_up p:last-child a'));
+	$('.ow_sign_in &gt; .clearfix').after($('.ow_connect_buttons .clearfix'));
+</script>
+<script type="text/javascript" src="http://127.0.0.1/oxwall/ow_static/plugins/base/js/ow.js?5c38faefbbf7b"></script>
+<script type="text/javascript" src="http://127.0.0.1/oxwall/ow_static/plugins/base/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="http://127.0.0.1/oxwall/ow_static/plugins/base/js/jquery.jscrollpane.js"></script>
+<script type="text/javascript">
+(function() {OW.ajaxComponentLoaderRsp = "http:\/\/127.0.0.1\/oxwall\/base\/ajax-loader\/component\/";
+OW.ajaxAttachmentLinkRsp = "http:\/\/127.0.0.1\/oxwall\/base\/attachment\/add-link\/";
+OW.getPing().setRspUrl("http:\/\/127.0.0.1\/oxwall\/base\/ping\/index\/");
+OW.Users = new OW_UsersApi({"rsp":"http:\/\/127.0.0.1\/oxwall\/base\/ajax-users-api\/rsp\/"});
+})();
+</script>
+<script type="text/javascript">
+$(function () {
+(function(_scope) {OW.registerLanguageKey('base', 'ajax_floatbox_users_title', "Users");})({});
+(function(_scope) {OW.registerLanguageKey('base', 'flag_as', "Flag this as...");})({});
+(function(_scope) {OW.registerLanguageKey('base', 'delete_user_confirmation_label', "Delete confirmation");})({});
+(function(_scope) {OW.registerLanguageKey('base', 'authorization_limited_permissions', "Limited permissions");})({});
+(function(_scope) {OW.registerLanguageKey('base', 'avatar_change', "Change Avatar");})({});
+(function(_scope) {OW.registerLanguageKey('base', 'avatar_crop', "Crop Avatar");})({});
+(function(_scope) {OW.registerLanguageKey('admin', 'edit_language', "Edit Language");})({});
+(function(_scope) { var form = new OwForm({"id":"form_jik3h4gu","name":"emailVerifyForm","reset":true,"ajax":null,"ajaxDataType":"json","validateErrorMessage":"Please fill the form properly"});window.owForms[form.name] = form;
+			
+var formElement = new OwFormElement("input_p4bywyge", "form_name");
+form.addElement(formElement);
+
+            var formElement = new OwFormElement("input_vugejitu", "csrf_token");
+            formElement.resetValue = function(){};
+        
+form.addElement(formElement);
+var formElement = new OwTextField("input_row4j4z2", "email");formElement.addValidator({
+        	validate : function( value )
+                {
+                },
+        	getErrorMessage : function(){
+                    return null;
+                 }
+        });
+form.addElement(formElement);
+
+
+			if ( form.form ) 
+			{
+    			$(form.form).bind( 'submit', {form:form},
+    					function(e){
+    						return e.data.form.submitForm();
+    					}
+    			);
+                        }
+                        
+                        OW.trigger('base.onFormReady.' + form.name, [], form);
+                        OW.trigger('base.onFormReady', [form]);
+		})({});
+(function(_scope) {OW.bindAutoClicks();OW.bindTips($('body'));OW.getPing().addCommand('user_activity_update').start(600000);})({});
+(function(_scope) {OW.message("User data updated", 'info');})({});
+(function(_scope) {$.get("http:\/\/127.0.0.1\/oxwall\/ow_cron\/run.php?ow-light-cron=1");})({});
+
+});
+</script>
+
+
+
+<div class="ow_message_cont"></div></body></html>
